@@ -2,9 +2,11 @@
 
 This Flipper Zero application lets you control your computer using any standard IR remote. It works by converting IR signals to HID signals using a csv look up table.
 
+The csv LUT is parsed each time the application is launched.
+
 ### Building
 
-To build from source install UBFT and run
+To compile application binary from source install [UBFT (micro Flipper Build Tool)](https://github.com/flipperdevices/flipperzero-ufbt) and run:
 
 ```sh
 ufbt build
